@@ -120,12 +120,11 @@ Menggunakan Doubly Linked List dengan operasi:
 
 ## 7. Kesimpulan
 
-Berdasarkan hasil implementasi:
+Berdasarkan hasil implementasi, rumusan masalah yang diajukan telah berhasil diselesaikan dengan menggunakan Doubly Linked List. Struktur data ini mampu menyimpan data playlist video secara dinamis serta mendukung navigasi dua arah (next dan previous) dengan baik.
 
-- Rumusan masalah telah berhasil diselesaikan dengan penggunaan Doubly Linked List
-- Sistem berjalan sesuai dengan teori struktur data, khususnya linked list
-- Playlist video dapat dikelola dengan lebih fleksibel dan efisien
-- Linked list sangat bermanfaat untuk kasus yang membutuhkan navigasi dua arah serta penambahan dan penghapusan data secara dinamis
+Sistem yang dibuat juga telah berjalan sesuai dengan teori struktur data, di mana setiap node saling terhubung menggunakan pointer next dan prev. Proses penambahan dan penghapusan video dapat dilakukan tanpa mengganggu urutan data, sehingga lebih efisien dibandingkan penggunaan array.
+
+Dengan demikian, penggunaan linked list pada sistem playlist video memberikan manfaat berupa fleksibilitas dalam pengelolaan data serta kemudahan dalam navigasi, sehingga cocok digunakan untuk kasus serupa dalam pengembangan aplikasi nyata.
 
 ### 🚀 Penutup
 
