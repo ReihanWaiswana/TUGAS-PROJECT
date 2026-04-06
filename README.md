@@ -17,7 +17,23 @@ Saya memilih tema ini karena:
 
 ➡ Jadi, tema ini relevan dengan kehidupan sehari-hari dan mudah dijelaskan
 
-## 📖 3. Studi Kasus
+## ❓ 3. Rumusan Masalah dan Solusi
+### ❓ Rumusan Masalah
+Bagaimana cara menyimpan data playlist video secara dinamis tanpa batas ukuran tetap?
+Bagaimana sistem dapat melakukan navigasi ke video berikutnya dan sebelumnya dengan efisien?
+Bagaimana proses penambahan dan penghapusan video dapat dilakukan tanpa merusak urutan playlist?
+
+### 💡 Solusi
+
+Solusi yang digunakan adalah dengan menerapkan Doubly Linked List, di mana setiap video disimpan dalam node yang memiliki pointer next dan prev.
+
+Dengan pendekatan ini:
+
+- Data dapat ditambahkan dan dihapus dengan mudah
+- Navigasi video dapat dilakukan dua arah (next & previous)
+- Sistem menjadi lebih fleksibel dibandingkan array
+
+## 📖 4. Studi Kasus
 
 Misalnya pada sebuah playlist video:
 
@@ -40,23 +56,7 @@ Ketika pengguna:
 - Navigasi maju dan mundur
 - Menambah dan menghapus video secara fleksibel
 
-## ❓ 4. Rumusan Masalah dan Solusi
-### ❓ Rumusan Masalah
-Bagaimana cara menyimpan data playlist video secara dinamis tanpa batas ukuran tetap?
-Bagaimana sistem dapat melakukan navigasi ke video berikutnya dan sebelumnya dengan efisien?
-Bagaimana proses penambahan dan penghapusan video dapat dilakukan tanpa merusak urutan playlist?
-
-### 💡 Solusi
-
-Solusi yang digunakan adalah dengan menerapkan Doubly Linked List, di mana setiap video disimpan dalam node yang memiliki pointer next dan prev.
-
-Dengan pendekatan ini:
-
-- Data dapat ditambahkan dan dihapus dengan mudah
-- Navigasi video dapat dilakukan dua arah (next & previous)
-- Sistem menjadi lebih fleksibel dibandingkan array
-
-## Landasan Teori
+## 5. Landasan Teori
 
 Struktur data adalah cara untuk mengorganisasi dan menyimpan data agar dapat diakses dan dimanipulasi secara efisien. Pemilihan struktur data yang tepat sangat berpengaruh terhadap performa suatu sistem.
 
@@ -71,3 +71,49 @@ Dalam implementasinya, linked list dapat digunakan untuk membangun sistem yang m
 - Weiss, M. A. (2014). Data Structures and Algorithm Analysis. Pearson
 - Goodrich, M. T. (2013). Data Structures and Algorithms in Python. Wiley
 
+## 6. Desain Sistem dan Implementasi
+### 🔄 Alur Sistem
+
+`Input → Proses → Output`
+
+- Input:
+Data video (judul video)
+- Proses:
+  - Menambahkan video ke playlist
+  - Navigasi next dan previous
+  - Menghapus video
+- Output:
+Tampilan daftar playlist video
+
+### 🧠 Pseudocode
+    Mulai
+    Buat playlist kosong
+
+    Tambah Video:
+      Jika playlist kosong → jadikan head
+      Jika tidak → tambah di akhir
+
+    Next:
+      Pindah ke node berikutnya
+
+    Previous:
+      Pindah ke node sebelumnya
+
+    Hapus Video:
+      Cari video
+      Hapus dan sambungkan node
+
+    Tampilkan Playlist
+    Selesai
+
+### ⚙️ Implementasi (Linked List)
+
+Menggunakan Doubly Linked List dengan operasi:
+
+- Add Video
+- Next
+- Previous
+- Remove
+- Display
+
+(Struktur lengkap ada di file `playlist_video.py`)
