@@ -55,3 +55,19 @@ Dengan pendekatan ini:
 - Data dapat ditambahkan dan dihapus dengan mudah
 - Navigasi video dapat dilakukan dua arah (next & previous)
 - Sistem menjadi lebih fleksibel dibandingkan array
+
+## Landasan Teori
+
+Struktur data adalah cara untuk mengorganisasi dan menyimpan data agar dapat diakses dan dimanipulasi secara efisien. Pemilihan struktur data yang tepat sangat berpengaruh terhadap performa suatu sistem.
+
+Stack dan queue merupakan struktur data linear yang memiliki aturan tertentu dalam pengolahan data. Stack menggunakan prinsip LIFO (Last In First Out), sedangkan queue menggunakan prinsip FIFO (First In First Out). Kedua konsep ini banyak digunakan dalam berbagai sistem, seperti manajemen memori dan antrian proses.
+
+Linked List adalah struktur data yang terdiri dari kumpulan node yang saling terhubung menggunakan pointer. Berbeda dengan array, linked list bersifat dinamis sehingga memudahkan proses penambahan dan penghapusan data.
+
+Dalam implementasinya, linked list dapat digunakan untuk membangun sistem yang membutuhkan fleksibilitas tinggi, seperti playlist video, karena mendukung navigasi dua arah menggunakan Doubly Linked List.
+
+### 📚 Referensi
+- Cormen, T. H. (2009). Introduction to Algorithms. MIT Press
+- Weiss, M. A. (2014). Data Structures and Algorithm Analysis. Pearson
+- Goodrich, M. T. (2013). Data Structures and Algorithms in Python. Wiley
+
