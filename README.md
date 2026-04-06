@@ -46,63 +46,12 @@ Bagaimana cara menyimpan data playlist video secara dinamis tanpa batas ukuran t
 Bagaimana sistem dapat melakukan navigasi ke video berikutnya dan sebelumnya dengan efisien?
 Bagaimana proses penambahan dan penghapusan video dapat dilakukan tanpa merusak urutan playlist?
 
-### Pembahasan Rumusan Masalah
-1. Penyimpanan Data Playlist
-   
-   Data playlist disimpan menggunakan Linked List, di mana setiap video adalah node yang memiliki next dan prev.
+### 💡 Solusi
 
-   ➡ Memungkinkan data disimpan secara dinamis tanpa batas tetap
-3. Navigasi Video (Next & Previous)
-   
-   Navigasi dilakukan dengan:
+Solusi yang digunakan adalah dengan menerapkan Doubly Linked List, di mana setiap video disimpan dalam node yang memiliki pointer next dan prev.
 
-   - next → ke video berikutnya
-   - prev → ke video sebelumnya
+Dengan pendekatan ini:
 
-   ➡ Perpindahan menjadi cepat tanpa harus mencari dari awal
-
-4. Penambahan dan Penghapusan Video
-
-   Tambah → node baru ditambahkan ke akhir playlist
-   Hapus → node dihapus lalu node lain langsung disambungkan
-
-   ➡ Tidak perlu menggeser data, sehingga lebih efisien
-
-5. Struktur Data yang Digunakan
-
-   Menggunakan Doubly Linked List karena:
-
-   Bisa maju dan mundur
-   Mudah tambah dan hapus data
-
-   ➡ Paling cocok untuk sistem playlist video
-
-### 🔎 Pembahasan Rumusan Masalah
-1. Penyimpanan Data Playlist
-
-Data playlist disimpan menggunakan Linked List, di mana setiap video adalah node yang memiliki next dan prev.
-➡ Memungkinkan data disimpan secara dinamis tanpa batas tetap
-
-2. Navigasi Video (Next & Previous)
-
-Navigasi dilakukan dengan:
-
-next → ke video berikutnya
-prev → ke video sebelumnya
-
-➡ Perpindahan menjadi cepat tanpa harus mencari dari awal
-
-3. Penambahan dan Penghapusan Video
-Tambah → node baru ditambahkan ke akhir playlist
-Hapus → node dihapus lalu node lain langsung disambungkan
-
-➡ Tidak perlu menggeser data, sehingga lebih efisien
-
-4. Struktur Data yang Digunakan
-
-Menggunakan Doubly Linked List karena:
-
-Bisa maju dan mundur
-Mudah tambah dan hapus data
-
-➡ Paling cocok untuk sistem playlist video
+- Data dapat ditambahkan dan dihapus dengan mudah
+- Navigasi video dapat dilakukan dua arah (next & previous)
+- Sistem menjadi lebih fleksibel dibandingkan array
