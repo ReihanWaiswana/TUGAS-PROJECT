@@ -117,3 +117,16 @@ Menggunakan Doubly Linked List dengan operasi:
 - Display
 
 (Struktur lengkap ada di file `playlist_video.py`)
+
+## 7. Kesimpulan
+
+Berdasarkan hasil implementasi:
+
+- Rumusan masalah telah berhasil diselesaikan dengan penggunaan Doubly Linked List
+- Sistem berjalan sesuai dengan teori struktur data, khususnya linked list
+- Playlist video dapat dikelola dengan lebih fleksibel dan efisien
+- Linked list sangat bermanfaat untuk kasus yang membutuhkan navigasi dua arah serta penambahan dan penghapusan data secara dinamis
+
+### 🚀 Penutup
+
+Implementasi ini menunjukkan bahwa struktur data Linked List sangat cocok digunakan dalam sistem playlist video karena mendukung fleksibilitas dan efisiensi dalam pengelolaan data.
