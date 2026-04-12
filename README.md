@@ -15,13 +15,11 @@ Saya memilih tema ini karena:
   - Next (video berikutnya)
   - Previous (video sebelumnya)
 
-➡ Jadi, tema ini relevan dengan kehidupan sehari-hari dan mudah dijelaskan
-
 ## ❓ 3. Rumusan Masalah dan Solusi
 ### ❓ Rumusan Masalah
-Bagaimana cara menyimpan data playlist video secara dinamis tanpa batas ukuran tetap?
-Bagaimana sistem dapat melakukan navigasi ke video berikutnya dan sebelumnya dengan efisien?
-Bagaimana proses penambahan dan penghapusan video dapat dilakukan tanpa merusak urutan playlist?
+1. Bagaimana cara menyimpan data playlist video secara dinamis tanpa batas ukuran tetap?
+2. Bagaimana sistem dapat melakukan navigasi ke video berikutnya dan sebelumnya dengan efisien?
+3. Bagaimana proses penambahan dan penghapusan video dapat dilakukan tanpa merusak urutan playlist?
 
 ### 💡 Solusi
 
@@ -120,11 +118,11 @@ Menggunakan Doubly Linked List dengan operasi:
 
 ## 7. Kesimpulan
 
-Berdasarkan hasil implementasi, rumusan masalah yang diajukan telah berhasil diselesaikan dengan menggunakan Doubly Linked List. Struktur data ini mampu menyimpan data playlist video secara dinamis serta mendukung navigasi dua arah (next dan previous) dengan baik.
+Berdasarkan hasil implementasi sistem playlist video menggunakan Doubly Linked List, dapat disimpulkan bahwa seluruh rumusan masalah telah berhasil diselesaikan.
 
-Sistem yang dibuat juga telah berjalan sesuai dengan teori struktur data, di mana setiap node saling terhubung menggunakan pointer next dan prev. Proses penambahan dan penghapusan video dapat dilakukan tanpa mengganggu urutan data, sehingga lebih efisien dibandingkan penggunaan array.
+Pertama, penyimpanan data playlist dapat dilakukan secara dinamis menggunakan linked list, sehingga tidak memiliki batas ukuran tetap seperti array. Kedua, sistem mampu melakukan navigasi ke video berikutnya dan sebelumnya dengan memanfaatkan pointer `next` dan `prev`, sehingga proses perpindahan menjadi lebih efisien. Ketiga, proses penambahan dan penghapusan video dapat dilakukan tanpa merusak urutan data, karena node dapat langsung disambungkan kembali setelah perubahan.
 
-Dengan demikian, penggunaan linked list pada sistem playlist video memberikan manfaat berupa fleksibilitas dalam pengelolaan data serta kemudahan dalam navigasi, sehingga cocok digunakan untuk kasus serupa dalam pengembangan aplikasi nyata.
+Selain itu, sistem yang dibuat telah berjalan sesuai dengan teori struktur data linked list, di mana setiap node saling terhubung dan memungkinkan manipulasi data secara fleksibel. Dengan demikian, penggunaan doubly linked list terbukti efektif dan sesuai untuk diterapkan pada sistem playlist video.
 
 ### 🚀 Penutup
 
