@@ -108,11 +108,11 @@ Tampilan daftar playlist video
 
 Menggunakan Doubly Linked List dengan operasi:
 
-- Add Video
-- Next
-- Previous
-- Remove
-- Display
+- Add Video.
+- Next.
+- Previous.
+- Remove.
+- Display.
 
 (Struktur lengkap ada di file `playlist_video.py`)
 
